@@ -24,8 +24,8 @@ email: mk7744@nyu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Hashir's Website
 #domain: https://muhammadhashirbinkhalid.github.io
-url: https://muhammadhashirbinkhalid.github.io # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: /docs/ # the subpath of your site, e.g. /blog
+url: https://muhammadhashirbinkhalid.github.io/docs/ # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: /docs/ # the subpath of your site, e.g. /blog
 #url: "http://127.0.0.1:4000"
 twitter_username: jekyllrb
 github_username:  jekyll
