@@ -549,6 +549,125 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-top: 30px;
 }
 
+/* Projects: deployed badge */
+.project-thumb {
+  position: relative;
+}
+
+.deployed-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  background: #00b4d9;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 5px 11px;
+  border-radius: 12px;
+}
+
+/* Skills */
+.skills-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skill-group {
+  margin-bottom: 24px;
+}
+
+.skill-group h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #333;
+  margin: 0 0 12px;
+}
+
+.skill-chip {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1;
+  color: #00829c;
+  background: rgba(0, 180, 217, 0.12);
+  border-radius: 14px;
+  padding: 9px 15px;
+  margin: 0 8px 8px 0;
+}
+
+/* Awards */
+.awards-grid {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.award-item {
+  background: #fff;
+  border: 1px solid #ececec;
+  border-left: 3px solid #00b4d9;
+  border-radius: 6px;
+  padding: 18px 22px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.award-item i {
+  color: #00b4d9;
+  font-size: 22px;
+  margin-right: 16px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.award-item h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.award-item p {
+  font-size: 13px;
+  color: #777;
+  line-height: 20px;
+  margin: 0;
+}
+
+/* Contact CTA */
+.contact-cta {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.contact-cta p {
+  font-size: 15px;
+  color: #777;
+  margin: 0 0 12px;
+}
+
+.contact-cta .contact-email a {
+  color: #00b4d9;
+  font-weight: 600;
+}
+
+.contact-cta .btn {
+  margin: 10px 0 24px;
+}
+
+.contact-cta .social-icon {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.contact-cta .social-icon li {
+  display: inline-block;
+  margin: 0 6px;
+}
+
 .timeline {
   position: relative;
 }
