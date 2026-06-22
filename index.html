@@ -11,7 +11,8 @@
   <meta name="author" content="Muhammad Hashir Bin Khalid" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <meta name="theme-color" content="#00b4d9" />
 
   <!-- Open Graph / social sharing -->
   <meta property="og:type" content="website" />
@@ -133,15 +134,18 @@
               <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">
                 Hello, I'm
               </h5>
-              <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">
+              <h1 class="head-title wow fadeInUp" data-wow-delay="0.4s">
                 Muhammad Hashir Bin Khalid
-              </h2>
+              </h1>
               <p class="script-font wow fadeInUp" data-wow-delay="0.6s">
                 AI/ML Engineer &amp; Product Architect
               </p>
+              <p class="hero-summary wow fadeInUp" data-wow-delay="0.7s">
+                I design and ship AI systems end-to-end — computer vision, LLMs &amp; agentic architectures, and the data pipelines behind them.
+              </p>
               <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
                 <li>
-                  <a class="facebook" href="https://www.facebook.com/mohammadhashir.binkhalid" target="_blank"><i class="icon-social-facebook"></i></a>
+                  <a class="facebook" href="https://www.facebook.com/mohammadhashir.binkhalid" target="_blank" rel="noopener" aria-label="Facebook"><i class="icon-social-facebook"></i></a>
                 </li>
                 <!--
                 <li>
@@ -154,17 +158,18 @@
                   <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
                 </li -->
                 <li>
-                  <a class="linkedin" href="https://www.linkedin.com/in/muhammad-hashir-bin-khalid-21104282/" target="_blank"><i class="icon-social-linkedin"></i></a>
+                  <a class="linkedin" href="https://www.linkedin.com/in/muhammad-hashir-bin-khalid-21104282/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="icon-social-linkedin"></i></a>
                 </li>
                 <li>
-                  <a class="github" href="https://github.com/MuhammadHashirBinKhalid" target="_blank"><i class="icon-social-github"></i></a>
+                  <a class="github" href="https://github.com/MuhammadHashirBinKhalid" target="_blank" rel="noopener" aria-label="GitHub"><i class="icon-social-github"></i></a>
                 </li>
                 <li>
-                  <a class="scholar" href="https://scholar.google.com/citations?user=UQvmCfQAAAAJ&amp;hl=en" target="_blank"><i class="icon-graduation"></i></a>
+                  <a class="scholar" href="https://scholar.google.com/citations?user=UQvmCfQAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="icon-graduation"></i></a>
                 </li>
               </ul>
               <div class="header-button wow fadeInUp" data-wow-delay="1s">
-                <a href="#about" class="btn btn-common">About Me</a>
+                <a href="#portfolios" class="btn btn-common">View My Work</a>
+                <a href="assets/CV.pdf" target="_blank" class="btn btn-outline">Download CV</a>
               </div>
             </div>
           </div>
@@ -181,7 +186,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
-            <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="Muhammad Hashir Bin Khalid" />
+            <img class="img-fluid" loading="lazy" src="assets/img/about/about-1.jpg" alt="Muhammad Hashir Bin Khalid" />
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -229,22 +234,33 @@
 
   <!-- Services Section Start -->
   <section id="services" class="services section-padding">
-    <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What I do</h2>
+    <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What I Do</h2>
     <div class="container">
+      <p class="section-lead wow fadeInUp" data-wow-delay="0.2s">I design and ship AI systems end-to-end — and increasingly architect <strong>agentic AI harnesses</strong> and advise teams on building real-world AI products.</p>
       <div class="row">
         <!-- Services item -->
         <div class="col-md-6 col-lg-4 col-xs-12">
           <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
-            <div class="icon"><i class="icon-layers"></i></div>
+            <div class="icon"><i class="icon-rocket"></i></div>
             <div class="services-content">
-              <h3>AI/ML &amp; Deep Learning</h3>
-              <p>End-to-end machine learning and deep learning — from data to trained, production-ready models.</p>
+              <h3>Agentic AI &amp; LLM Systems</h3>
+              <p>Designing agentic harnesses, multi-agent orchestration, and LLM-powered systems — from intent understanding to tool-using, autonomous workflows.</p>
             </div>
           </div>
         </div>
         <!-- Services item -->
         <div class="col-md-6 col-lg-4 col-xs-12">
           <div class="services-item wow fadeInDown" data-wow-delay="0.35s">
+            <div class="icon"><i class="icon-layers"></i></div>
+            <div class="services-content">
+              <h3>AI/ML &amp; Deep Learning</h3>
+              <p>End-to-end machine learning and deep learning — data, training, evaluation, and deploying models that hold up in production.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Services item -->
+        <div class="col-md-6 col-lg-4 col-xs-12">
+          <div class="services-item wow fadeInDown" data-wow-delay="0.5s">
             <div class="icon"><i class="icon-eye"></i></div>
             <div class="services-content">
               <h3>Computer Vision</h3>
@@ -254,21 +270,11 @@
         </div>
         <!-- Services item -->
         <div class="col-md-6 col-lg-4 col-xs-12">
-          <div class="services-item wow fadeInDown" data-wow-delay="0.5s">
-            <div class="icon"><i class="icon-bubbles"></i></div>
-            <div class="services-content">
-              <h3>NLP, LLMs &amp; Agentic AI</h3>
-              <p>Language models, intent understanding, and multi-agent / agentic AI harnesses.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Services item -->
-        <div class="col-md-6 col-lg-4 col-xs-12">
           <div class="services-item wow fadeInDown" data-wow-delay="0.65s">
             <div class="icon"><i class="icon-grid"></i></div>
             <div class="services-content">
               <h3>Data Pipelines &amp; BigQuery</h3>
-              <p>Large-scale data pipelines and analytics on BigQuery and big-data stacks.</p>
+              <p>Large-scale data pipelines, warehousing, and analytics on BigQuery — turning raw data into queryable intelligence.</p>
             </div>
           </div>
         </div>
@@ -278,7 +284,7 @@
             <div class="icon"><i class="icon-settings"></i></div>
             <div class="services-content">
               <h3>Embedded Systems &amp; IoT</h3>
-              <p>Firmware, control circuits, sensing, and connected IoT devices.</p>
+              <p>Firmware, control circuits, sensing, and connected devices that bridge AI and hardware.</p>
             </div>
           </div>
         </div>
@@ -287,8 +293,8 @@
           <div class="services-item wow fadeInDown" data-wow-delay="0.95s">
             <div class="icon"><i class="icon-briefcase"></i></div>
             <div class="services-content">
-              <h3>Product Architecture &amp; Leadership</h3>
-              <p>Architecting AI products and leading teams from research to shipped product.</p>
+              <h3>AI Systems Consulting &amp; Architecture</h3>
+              <p>Architecting AI products and advising teams from research prototype to shipped, real-world system.</p>
             </div>
           </div>
         </div>
@@ -340,7 +346,7 @@
               </li>
               <li>
                 <div class="content-text">
-                  <img class="item-logo" src="assets/img/logos/nyu.png" alt="New York University" />
+                  <img class="item-logo" loading="lazy" src="assets/img/logos/nyu.png" alt="New York University" />
                   <h3 class="line-title">MSc in Computer Science - New York University</h3>
                   <span>2020 - 2022</span>
                   <p class="line-text">
@@ -350,7 +356,7 @@
               </li>
               <li>
                 <div class="content-text">
-                  <img class="item-logo" src="assets/img/logos/ned.png" alt="NED University of Engineering & Technology" />
+                  <img class="item-logo" loading="lazy" src="assets/img/logos/ned.png" alt="NED University of Engineering & Technology" />
                   <h3 class="line-title">
                     B.E. in Electronic Engineering - NEDUET
                   </h3>
@@ -385,32 +391,31 @@
               </li>
               <li>
                 <div class="content-text">
-                  <img class="item-logo" src="assets/img/logos/hyly.png" alt="Hyly.AI" />
+                  <img class="item-logo" loading="lazy" src="assets/img/logos/hyly.png" alt="Hyly.AI" />
                   <h3 class="line-title">Senior ML Engineer / Product Architect - Hyly.AI</h3>
                   <span>Dec 2024 - Present</span>
                   <p class="line-text">
-                    Leading AI, ML and NLP product architecture and development at Hyly.AI
+                    Architecting AI products and agentic systems &mdash; designing agentic harnesses, LLM-powered workflows, intent understanding, and the BigQuery data pipelines behind them.
                   </p>
                 </div>
               </li>
               <li>
                 <div class="content-text">
-                  <img class="item-logo" src="assets/img/logos/hyly.png" alt="Hyly.AI" />
+                  <img class="item-logo" loading="lazy" src="assets/img/logos/hyly.png" alt="Hyly.AI" />
                   <h3 class="line-title">ML Engineer - Hyly.AI</h3>
                   <span>Dec 2023 - Nov 2024</span>
                   <p class="line-text">
-                    Working on different AI, ML and NLP technologies
+                    Developed AI/ML and NLP features end-to-end &mdash; model training, LLM fine-tuning, and turning data into product capabilities.
                   </p>
                 </div>
               </li>
               <li>
                 <div class="content-text">
-                  <img class="item-logo" src="assets/img/logos/ned.png" alt="NED University of Engineering & Technology" />
+                  <img class="item-logo" loading="lazy" src="assets/img/logos/ned.png" alt="NED University of Engineering & Technology" />
                   <h3 class="line-title">Team Lead - NCL NEDUET.</h3>
                   <span>Aug 2022 - Dec 2023</span>
                   <p class="line-text">
-                    Working as Technical Team Lead on development of Electric bike for AIM-GE LLC USA and AIM-motors Pvt. Ltd. 
-                    Leading Software, AI and Firmware development teams working on Artificial Intelligence, Green Energy and Mobility solutions.
+                    Technical lead across an electric-mobility ecosystem for AIM Motors / AIM-GE LLC (USA) &mdash; directing AI, firmware, and software teams spanning the e-bike, swappable batteries with onboard BMS, and a battery-swapping network.
                   </p>
                 </div>
               </li>
@@ -419,30 +424,27 @@
                   <h3 class="line-title">Senior Machine Learning Engineer - Lambda Theta</h3>
                   <span>Sep 2022 - Nov 2023</span>
                   <p class="line-text">
-                    Leading a team of Artificial Intelligence and Computer vision developers working on 
-different local and international projects. Worked with ELM on road condition monitoring, crack 
-detection and classification, and crack severity estimation using different deep learning and 
-computer vision techniques.
+                    Led AI and computer-vision work on local and international projects &mdash; including road-condition monitoring with ELM (crack detection, classification, and severity estimation using deep learning and computer vision).
                   </p>
                 </div>
               </li>
               <li>
                 <div class="content-text">
-                  <img class="item-logo" src="assets/img/logos/ncai.png" alt="National Center of Artificial Intelligence" />
+                  <img class="item-logo" loading="lazy" src="assets/img/logos/ncai.png" alt="National Center of Artificial Intelligence" />
                   <h3 class="line-title">Research Associate - NCL National Center of AI</h3>
                   <span>Sep 2020 - Aug 2021</span>
                   <p class="line-text">
-                    Lead team of developers working on Machine Learning, A.I., Firmware development, embedded systems and product development.
+                    Led a team across machine learning, AI, firmware, and embedded systems &mdash; including a chest X-ray lung-trauma predictor with Aga Khan University Hospital and intelligent ceiling-fan R&amp;D.
                   </p>
                 </div>
               </li>
               <li>
                 <div class="content-text">
-                  <img class="item-logo" src="assets/img/logos/ned.png" alt="NED University of Engineering & Technology" />
+                  <img class="item-logo" loading="lazy" src="assets/img/logos/ned.png" alt="NED University of Engineering & Technology" />
                   <h3 class="line-title">Artificial Intelligence Engineer - Instrumentation Center, NED</h3>
                   <span>Dec 2017 - Aug 2020</span>
                   <p class="line-text">
-                    Worked on development IoT circuit of Smart Fans Project. Also worked on development and training of A.I. system for Smart Fans.
+                    Built the IoT control circuit and trained the AI system for the HEC-funded Smart Fans project &mdash; embedded sensing, ML usage modeling, and energy-saving control.
                   </p>
                 </div>
               </li>
@@ -577,11 +579,20 @@ computer vision techniques.
         <!-- Project Card -->
         <div class="col-md-6 col-lg-4">
           <div class="project-card">
-            <div class="project-thumb"><span class="deployed-badge">Deployed</span><img src="assets/img/gallery/img-6.jpg" alt="RoboChotu autism assistant robot" /></div>
+            <div class="project-thumb tile-1"><span class="deployed-badge">Deployed</span><i class="icon-speech"></i></div>
             <div class="project-body">
               <h3 class="project-title">RoboChotu — Autism Assistant Robot</h3>
               <p class="project-desc">Contributed to RoboChotu, a social robot that helps therapists teach autistic children &mdash; emotion recognition and a multilingual chatbot. Tested at 3&ndash;5 autism centers; HEC/NCAI-funded.</p>
               <div class="pub-tags"><span class="pub-tag">AI</span><span class="pub-tag">Robotics</span><span class="pub-tag">Healthcare</span></div>
+              <details class="project-more">
+                <summary>Read more</summary>
+                <ul class="project-more-list">
+                  <li>Co-founded as the founding student team's project head; later product architect.</li>
+                  <li>Worked on the on-device emotion-recognition model (CNNs + classical ML) and the robot firmware (Arduino locomotion + Android-tablet face/OS, Bluetooth).</li>
+                  <li>Built activity workflows, the multilingual chatbot (English/Urdu/Arabic), and the in-class experiment design.</li>
+                  <li>Won multiple HEC/NCAI research &amp; project grants; tested with ~10&ndash;50 children across 3&ndash;5 autism centers.</li>
+                </ul>
+              </details>
               <div class="project-links">
                 <a href="https://www.facebook.com/robochotu/" target="_blank" rel="noopener"><i class="icon-link"></i>Page</a>
               </div>
@@ -592,11 +603,20 @@ computer vision techniques.
         <!-- Project Card -->
         <div class="col-md-6 col-lg-4">
           <div class="project-card">
-            <div class="project-thumb"><span class="deployed-badge">Deployed</span><img src="assets/img/gallery/img-3.jpg" alt="SmartFan AI ceiling fan" /></div>
+            <div class="project-thumb tile-2"><span class="deployed-badge">Deployed</span><i class="icon-energy"></i></div>
             <div class="project-body">
               <h3 class="project-title">SmartFan — AI Ceiling Fan</h3>
               <p class="project-desc">Contributed to SmartFan, an AI ceiling fan that learns usage and saves energy &mdash; including the ML models and the MCU control circuit. Deployed across residential and commercial sites, saving thousands of kWh.</p>
               <div class="pub-tags"><span class="pub-tag">IoT</span><span class="pub-tag">AI</span><span class="pub-tag">Energy</span></div>
+              <details class="project-more">
+                <summary>Read more</summary>
+                <ul class="project-more-list">
+                  <li>Worked on the ML models (preferred speed, occupancy on/off, energy optimization, usage scheduling) using classical ML, neural networks, and time-series.</li>
+                  <li>Designed the MCU control circuit and sensor integration; built the IoT data-collection pipeline.</li>
+                  <li>Co-authored the published usage dataset (Data in Brief, 2023).</li>
+                  <li>Grew from the HEC-funded "Intelligent Ceiling Fans" project; deployed across residential &amp; commercial sites.</li>
+                </ul>
+              </details>
               <div class="project-links">
                 <a href="https://instrux.live/smartfan/landing/index.php" target="_blank" rel="noopener"><i class="icon-link"></i>Product</a>
               </div>
@@ -607,11 +627,19 @@ computer vision techniques.
         <!-- Project Card -->
         <div class="col-md-6 col-lg-4">
           <div class="project-card">
-            <div class="project-thumb"><span class="deployed-badge">Deployed</span><img src="assets/img/gallery/img-4.jpg" alt="INSTRUX energy monitoring platform" /></div>
+            <div class="project-thumb tile-3"><span class="deployed-badge">Deployed</span><i class="icon-grid"></i></div>
             <div class="project-body">
               <h3 class="project-title">INSTRUX — Energy Monitoring</h3>
               <p class="project-desc">Contributed to INSTRUX, a real-time energy-monitoring platform &mdash; including the embedded metering hardware. Deployed at multiple sites including NED University, Oh My Grill, and Rainbow Textile.</p>
               <div class="pub-tags"><span class="pub-tag">IoT</span><span class="pub-tag">Embedded</span><span class="pub-tag">Energy</span></div>
+              <details class="project-more">
+                <summary>Read more</summary>
+                <ul class="project-more-list">
+                  <li>Worked on the embedded metering hardware &mdash; analyzer-interface board, MCU firmware, sensing &amp; calibration, and ~20-second Wi-Fi telemetry &mdash; plus usage trend analysis.</li>
+                  <li>Hands-on with the system behind the Sustainability (2024) paper; ~40% cheaper to build than comparable systems.</li>
+                  <li>Deployed at NED University, Oh My Grill, and Rainbow Textile.</li>
+                </ul>
+              </details>
               <div class="project-links">
                 <a href="https://instrux.live/#app-features" target="_blank" rel="noopener"><i class="icon-link"></i>Product</a>
                 <a href="https://www.mdpi.com/2071-1050/16/10/4137" target="_blank" rel="noopener"><i class="icon-graduation"></i>Paper</a>
@@ -623,11 +651,19 @@ computer vision techniques.
         <!-- Project Card -->
         <div class="col-md-6 col-lg-4">
           <div class="project-card">
-            <div class="project-thumb"><img src="assets/img/gallery/img-1.jpg" alt="Road condition monitoring" /></div>
+            <div class="project-thumb tile-4"><i class="icon-eye"></i></div>
             <div class="project-body">
               <h3 class="project-title">Road Condition Monitoring &amp; Crack Detection</h3>
               <p class="project-desc">Contributed to a deep-learning road-condition system &mdash; crack detection, classification, and severity estimation on large real-world road imagery (delivered to ELM).</p>
               <div class="pub-tags"><span class="pub-tag">Computer Vision</span><span class="pub-tag">Deep Learning</span></div>
+              <details class="project-more">
+                <summary>Read more</summary>
+                <ul class="project-more-list">
+                  <li>Built core computer-vision models: crack detection, crack-type classification, and severity estimation.</li>
+                  <li>Techniques: CNN segmentation, object detection, classification networks, and classical CV.</li>
+                  <li>Trained and tested on a large real-world road-imagery dataset; delivered to ELM.</li>
+                </ul>
+              </details>
             </div>
           </div>
         </div>
@@ -635,11 +671,23 @@ computer vision techniques.
         <!-- Project Card -->
         <div class="col-md-6 col-lg-4">
           <div class="project-card">
-            <div class="project-thumb"><img src="assets/img/gallery/img-2.jpg" alt="AIM Motors EV ecosystem" /></div>
+            <div class="project-thumb tile-5"><i class="icon-rocket"></i></div>
             <div class="project-body">
               <h3 class="project-title">AIM Motors EV Ecosystem</h3>
               <p class="project-desc">Contributed to a full electric-mobility solution &mdash; e-bike, swappable battery with BMS, anti-theft pairing, and a city swapping network, with AI for range prediction and battery-supply planning. Delivered to AIM-GE (USA) and field-tested.</p>
               <div class="pub-tags"><span class="pub-tag">EV</span><span class="pub-tag">Embedded</span><span class="pub-tag">AI</span></div>
+              <details class="project-more">
+                <summary>Read more</summary>
+                <p class="project-more-intro">A full electric-mobility solution &mdash; not a single product &mdash; spanning:</p>
+                <ul class="project-more-list">
+                  <li><strong>Electric bike</strong> + onboard firmware / control circuit.</li>
+                  <li><strong>Swappable battery</strong> + firmware / control circuit with onboard <strong>BMS</strong>.</li>
+                  <li><strong>Anti-theft pairing</strong> &mdash; the bike pairs with its battery's circuit.</li>
+                  <li><strong>City-wide swapping stations</strong> for battery exchange.</li>
+                  <li><strong>AI</strong> &mdash; range prediction (remaining km) and battery-supply planning across stations (fleet / logistics optimization).</li>
+                </ul>
+                <p class="project-more-foot">Role: Technical Team Lead across AI, firmware, software, and electronics. Outcome: a small prototype fleet (2&ndash;10 bikes) + a proof-of-concept swap station; delivered to AIM-GE LLC (USA) and field-tested.</p>
+              </details>
             </div>
           </div>
         </div>
@@ -647,11 +695,20 @@ computer vision techniques.
         <!-- Project Card -->
         <div class="col-md-6 col-lg-4">
           <div class="project-card">
-            <div class="project-thumb"><img src="assets/img/gallery/img-5.jpg" alt="Robothon meta-ML platform" /></div>
+            <div class="project-thumb tile-6"><i class="icon-layers"></i></div>
             <div class="project-body">
               <h3 class="project-title">Robothon — Meta-ML Platform</h3>
               <p class="project-desc">Contributed to Robothon, an NYU capstone meta-ML platform where ML bots compete to predict ADHD/ASD stress and recommend an Apple Watch activity.</p>
               <div class="pub-tags"><span class="pub-tag">Machine Learning</span><span class="pub-tag">AutoML</span><span class="pub-tag">Healthcare</span></div>
+              <details class="project-more">
+                <summary>Read more</summary>
+                <ul class="project-more-list">
+                  <li>NYU master's capstone; sole builder.</li>
+                  <li>Built a meta-ML competition framework where ML "bots" compete to produce the best model.</li>
+                  <li>Tech: classical ML + an AutoML / meta-learning design.</li>
+                  <li>Applied to predicting ADHD/ASD stress and recommending an Apple Watch activity.</li>
+                </ul>
+              </details>
             </div>
           </div>
         </div>
@@ -659,11 +716,18 @@ computer vision techniques.
         <!-- Project Card -->
         <div class="col-md-6 col-lg-4">
           <div class="project-card">
-            <div class="project-thumb"><img src="assets/img/gallery/img-5.jpg" alt="DARPA Machine Common Sense" /></div>
+            <div class="project-thumb tile-7"><i class="icon-bubbles"></i></div>
             <div class="project-body">
               <h3 class="project-title">Machine Common Sense (DARPA)</h3>
               <p class="project-desc">Contributed to NYU's part of DARPA's Machine Common Sense program &mdash; computer-vision and simulation work (Prof. Rob Fergus).</p>
               <div class="pub-tags"><span class="pub-tag">AI</span><span class="pub-tag">Computer Vision</span><span class="pub-tag">Research</span></div>
+              <details class="project-more">
+                <summary>Read more</summary>
+                <ul class="project-more-list">
+                  <li>Master's capstone contributing to NYU's part of DARPA's Machine Common Sense program (Prof. Rob Fergus's group).</li>
+                  <li>Worked on simulations and computer-vision models for scene evaluation, supporting the larger research team.</li>
+                </ul>
+              </details>
               <div class="project-links">
                 <a href="https://www.darpa.mil/research/programs/machine-common-sense" target="_blank" rel="noopener"><i class="icon-link"></i>DARPA program</a>
               </div>
@@ -674,11 +738,19 @@ computer vision techniques.
         <!-- Project Card -->
         <div class="col-md-6 col-lg-4">
           <div class="project-card">
-            <div class="project-thumb"><img src="assets/img/gallery/img-6.jpg" alt="Lung trauma X-ray predictor" /></div>
+            <div class="project-thumb tile-8"><i class="icon-badge"></i></div>
             <div class="project-body">
               <h3 class="project-title">Lung Trauma Injury Predictor</h3>
               <p class="project-desc">Contributed to a chest-X-ray lung-trauma injury predictor with Aga Khan University Hospital &mdash; deep learning with transfer learning, with promising accuracy.</p>
               <div class="pub-tags"><span class="pub-tag">Computer Vision</span><span class="pub-tag">Medical Imaging</span><span class="pub-tag">Healthcare</span></div>
+              <details class="project-more">
+                <summary>Read more</summary>
+                <ul class="project-more-list">
+                  <li>Led the AI team building a chest X-ray lung-trauma injury predictor with Aga Khan University Hospital.</li>
+                  <li>Tech: CNNs + transfer learning + medical-image preprocessing on a medium dataset (1k&ndash;10k X-rays).</li>
+                  <li>Promising accuracy; later continued by the team.</li>
+                </ul>
+              </details>
             </div>
           </div>
         </div>
@@ -740,9 +812,9 @@ computer vision techniques.
         <p class="contact-email"><a href="mailto:mohammadhashirbinkhalid@gmail.com">mohammadhashirbinkhalid@gmail.com</a></p>
         <a href="mailto:mohammadhashirbinkhalid@gmail.com" class="btn btn-common"><i class="icon-envelope"></i> Email Me</a>
         <ul class="social-icon">
-          <li><a class="linkedin" href="https://www.linkedin.com/in/muhammad-hashir-bin-khalid-21104282/" target="_blank"><i class="icon-social-linkedin"></i></a></li>
-          <li><a class="github" href="https://github.com/MuhammadHashirBinKhalid" target="_blank"><i class="icon-social-github"></i></a></li>
-          <li><a class="scholar" href="https://scholar.google.com/citations?user=UQvmCfQAAAAJ&amp;hl=en" target="_blank"><i class="icon-graduation"></i></a></li>
+          <li><a class="linkedin" href="https://www.linkedin.com/in/muhammad-hashir-bin-khalid-21104282/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="icon-social-linkedin"></i></a></li>
+          <li><a class="github" href="https://github.com/MuhammadHashirBinKhalid" target="_blank" rel="noopener" aria-label="GitHub"><i class="icon-social-github"></i></a></li>
+          <li><a class="scholar" href="https://scholar.google.com/citations?user=UQvmCfQAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="icon-graduation"></i></a></li>
         </ul>
       </div>
     </div>
@@ -757,7 +829,7 @@ computer vision techniques.
           <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
             <ul class="social-icon">
               <li>
-                <a class="facebook" href="https://www.facebook.com/mohammadhashir.binkhalid"><i class="icon-social-facebook"></i></a>
+                <a class="facebook" href="https://www.facebook.com/mohammadhashir.binkhalid" target="_blank" rel="noopener" aria-label="Facebook"><i class="icon-social-facebook"></i></a>
               </li>
               <!--li>
                 <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
@@ -766,13 +838,13 @@ computer vision techniques.
                 <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
               </li-->
               <li>
-                <a class="linkedin" href="https://www.linkedin.com/in/muhammad-hashir-bin-khalid-21104282/" target="_blank"><i class="icon-social-linkedin"></i></a>
+                <a class="linkedin" href="https://www.linkedin.com/in/muhammad-hashir-bin-khalid-21104282/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="icon-social-linkedin"></i></a>
               </li>
               <li>
-                <a class="github" href="https://github.com/MuhammadHashirBinKhalid" target="_blank"><i class="icon-social-github"></i></a>
+                <a class="github" href="https://github.com/MuhammadHashirBinKhalid" target="_blank" rel="noopener" aria-label="GitHub"><i class="icon-social-github"></i></a>
               </li>
               <li>
-                <a class="scholar" href="https://scholar.google.com/citations?user=UQvmCfQAAAAJ&amp;hl=en" target="_blank"><i class="icon-graduation"></i></a>
+                <a class="scholar" href="https://scholar.google.com/citations?user=UQvmCfQAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="icon-graduation"></i></a>
               </li>
             </ul>
             <p>Copyright © 2026</p>
@@ -784,7 +856,7 @@ computer vision techniques.
   <!-- Footer Section End -->
 
   <!-- Go to Top Link -->
-  <a href="#" class="back-to-top">
+  <a href="#" class="back-to-top" aria-label="Back to top">
     <i class="icon-arrow-up"></i>
   </a>
 

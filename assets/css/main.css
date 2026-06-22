@@ -668,6 +668,180 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin: 0 6px;
 }
 
+/* ===== 2026 refresh: services, hero, read-more, section rhythm ===== */
+
+/* Section lead text under a title */
+.section-lead {
+  max-width: 720px;
+  margin: 0 auto 42px;
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  line-height: 25px;
+}
+
+/* Services cards — refined rendering */
+.services-item {
+  border: 1px solid #ececec;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  padding: 40px 26px;
+  margin-bottom: 30px;
+}
+
+.services-item:hover {
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+}
+
+.services-item .icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: rgba(0, 180, 217, 0.10);
+}
+
+.services-item .icon i {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0;
+  font-size: 30px;
+  line-height: 72px;
+  color: #00b4d9;
+}
+
+.services-item .services-content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.services-item .services-content p {
+  font-size: 14px;
+  color: #777;
+  line-height: 22px;
+  margin: 0;
+}
+
+/* Hero summary + outline CTA */
+.hero-summary {
+  max-width: 620px;
+  margin: 0 auto 12px;
+  color: #f0f0f0;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.header-button .btn {
+  margin: 6px;
+}
+
+.header-button .btn-outline {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.header-button .btn-outline:hover {
+  background: #fff;
+  color: #222;
+}
+
+/* Project "Read more" (native <details>) */
+.project-more {
+  margin: 2px 0 14px;
+}
+
+.project-more > summary {
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+  color: #00b4d9;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.project-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.project-more > summary::after {
+  content: "\203A";
+  display: inline-block;
+  margin-left: 6px;
+  transition: transform 0.2s ease;
+}
+
+.project-more[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+.project-more[open] > summary {
+  margin-bottom: 10px;
+}
+
+.project-more-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.project-more-list li {
+  font-size: 13px;
+  color: #666;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
+
+.project-more-intro,
+.project-more-foot {
+  font-size: 13px;
+  color: #666;
+  line-height: 20px;
+  margin: 0 0 8px;
+}
+
+.project-more-foot {
+  margin-top: 8px;
+}
+
+/* Alternating section backgrounds for rhythm */
+#skills,
+#awards,
+#portfolios {
+  background: #f6f8fa;
+}
+
+/* Offset anchor jumps so the fixed navbar doesn't cover headings */
+html {
+  scroll-padding-top: 80px;
+}
+
+/* Project thumbnails as gradient + icon tiles */
+.project-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-thumb i {
+  font-size: 52px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.project-thumb.tile-1 { background: linear-gradient(135deg, #0093b8, #00c2e0); }
+.project-thumb.tile-2 { background: linear-gradient(135deg, #00b4d9, #34d1c1); }
+.project-thumb.tile-3 { background: linear-gradient(135deg, #1aa3c4, #5ad0e6); }
+.project-thumb.tile-4 { background: linear-gradient(135deg, #2b6fb0, #00b4d9); }
+.project-thumb.tile-5 { background: linear-gradient(135deg, #0a8fa8, #15c2a0); }
+.project-thumb.tile-6 { background: linear-gradient(135deg, #5566c4, #29a9d6); }
+.project-thumb.tile-7 { background: linear-gradient(135deg, #7a5cc4, #3aa0e0); }
+.project-thumb.tile-8 { background: linear-gradient(135deg, #1b9aa8, #46c8d6); }
+
 .timeline {
   position: relative;
 }
